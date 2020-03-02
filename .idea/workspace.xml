@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e45a851-4f63-4488-a32d-36f52d246fe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/ArtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/OpenWikiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/test/OpenWikiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/OpenWikiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/manager/ArtHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/manager/ArtHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/test/SearchArtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/presentation/wikipedia/test/SearchArtTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.presentation.wikipedia.test.SearchArtTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.presentation.wikipedia.test.SearchArtTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.presentation.wikipedia.test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.presentation.wikipedia.test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.presentation.wikipedia.test.SearchArtTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.presentation.wikipedia.test.SearchArtTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/ArtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/ArtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/test/SearchArtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presentation/wikipedia/test/SearchArtTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +69,33 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchArtTest">
-    <configuration name="OpenWikiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SearchArtTest.testChoiceArticle">
+    <configuration name="LoginWiki" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.presentation.wikipedia.test.OpenWikiTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.presentation.wikipedia.test.LoginWiki&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginWiki.testLoginWiki" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.presentation.wikipedia.test.LoginWiki.testLoginWiki&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,11 +130,53 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SearchArtTest.testChoiceArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.presentation.wikipedia.test.SearchArtTest.testChoiceArticle&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchArtTest.testSearchArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.presentation.wikipedia.test.SearchArtTest.testSearchArticle&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchArtTest.testChoiceArticle" />
+        <item itemvalue="Gradle.SearchArtTest.testSearchArticle" />
         <item itemvalue="Gradle.SearchArtTest" />
-        <item itemvalue="Gradle.OpenWikiTest" />
-        <item itemvalue="Gradle.OpenWikiTest" />
+        <item itemvalue="Gradle.LoginWiki.testLoginWiki" />
+        <item itemvalue="Gradle.LoginWiki" />
       </list>
     </recent_temporary>
   </component>
@@ -141,29 +210,33 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1582925154684" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1582927699157">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1583191859390">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1582149927496" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1582927699157" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1582927699156">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1583188287993" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583191859390" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1583191859390">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1582149927495" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1582927699156" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1582927699156">
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1583188287992" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583191859390" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1583191859389">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1582149927495" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1582927699156" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1582927699156">
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1583188287992" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583191859389" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1583191859390">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1582149927495" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1582927699156" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1583188287993" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583191859390" />
     <state x="374" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582475368259">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="374" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1582475368259" />
+    <state x="385" y="176" width="670" height="58" key="search.everywhere.popup" timestamp="1583012397592">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="385" y="176" width="670" height="58" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1583012397592" />
   </component>
 </project>
